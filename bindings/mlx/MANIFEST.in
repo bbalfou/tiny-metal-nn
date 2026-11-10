@@ -1,0 +1,10 @@
+include build_helpers.py
+include CMakeLists.txt
+include pyproject.toml
+include README.md
+include bindings.cpp
+recursive-include src *.cpp *.h *.mm
+recursive-include examples *.py *.md *.json
+recursive-include tests *.py *.md
+recursive-include _native *
+global-exclude __pycache__ *.py[cod] .DS_Store

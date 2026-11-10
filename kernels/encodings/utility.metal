@@ -1,0 +1,6 @@
+// Utility higher-order/utility entrypoints. Stable ABI: detail/kernels/encodings/utility.h.
+// Required derivative and utility mathematics executes on the GPU.
+#include "encodings/entrypoints.metal"
+ENCODING_UTILITY_ENTRIES(enc_utility, float, f32)
+ENCODING_UTILITY_ENTRIES(enc_utility, half, f16)
+ENCODING_LEVELS_ENTRY(enc_utility)

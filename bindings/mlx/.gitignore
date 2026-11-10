@@ -1,0 +1,11 @@
+/build/
+/dist/
+/*.egg-info/
+/.pytest_cache/
+/_native/
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+/tinymetalnn_mlx/rtc/
+/tinymetalnn_mlx/licenses/

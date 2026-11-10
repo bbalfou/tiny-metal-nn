@@ -4,3 +4,8 @@ __pycache__/
 *.egg-info/
 build/
 .venv/
+dist/
+.pytest_cache/
+*.so
+changes/
+benchmarks/

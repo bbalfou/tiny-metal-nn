@@ -1,0 +1,9 @@
+include CMakeLists.txt
+include build_helpers.py
+include pyproject.toml
+include README.md
+recursive-include tinymetalnn *.cpp *.h *.mm
+recursive-include tests *.py *.md
+recursive-include examples *.py *.md *.json
+recursive-include _native *
+global-exclude __pycache__ *.py[cod] .DS_Store
