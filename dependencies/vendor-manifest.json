@@ -1,0 +1,54 @@
+{
+  "submodules": [
+    {
+      "path": "metalrt",
+      "repository": "git@github.com:bbalfou/metalrt.git",
+      "commit": "5122fc6de0b8da12bff491b0c7d8b8a6647f35b8"
+    },
+    {
+      "path": "fmt",
+      "repository": "https://github.com/fmtlib/fmt.git",
+      "commit": "40626af88bd7df9a5fb80be7b25ac85b122d6c21"
+    },
+    {
+      "path": "pybind11",
+      "repository": "https://github.com/pybind/pybind11.git",
+      "commit": "a2e59f0e7065404b44dfe92a28aca47ba1378dc4"
+    },
+    {
+      "path": "pybind11_json",
+      "repository": "https://github.com/pybind/pybind11_json.git",
+      "commit": "d0bf434be9d287d73a963ff28745542daf02c08f"
+    }
+  ],
+  "vendored_headers": [
+    {
+      "path": "nlohmann/json.hpp",
+      "repository": "https://github.com/nlohmann/json",
+      "commit": "55f93686c01528224f448c19128836e7df245f72",
+      "upstream_path": "single_include/nlohmann/json.hpp",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "pcg32/pcg32.h",
+      "repository": "https://github.com/wjakob/pcg32",
+      "commit": "70099eadb86d3999c38cf69d2c55f8adc1f7fe34",
+      "upstream_path": "pcg32.h",
+      "sha256": "47273535c04686dea687f794e397ca36a62272a44dfe5e3467d32185f11c5dc8"
+    },
+    {
+      "path": "stbi/stb_image.h",
+      "repository": "https://github.com/nothings/stb",
+      "commit": "4e9b368bfc071e97206ea5c6adba68dd0cbf8897",
+      "upstream_path": "stb_image.h",
+      "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3"
+    },
+    {
+      "path": "stbi/stb_image_write.h",
+      "repository": "https://github.com/nothings/stb",
+      "commit": "4e9b368bfc071e97206ea5c6adba68dd0cbf8897",
+      "upstream_path": "stb_image_write.h",
+      "sha256": "cbd5f0ad7a9cf4468affb36354a1d2338034f2c12473cf1a8e32053cb6914a05"
+    }
+  ]
+}
